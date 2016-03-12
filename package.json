@@ -1,0 +1,22 @@
+{
+  "name": "art-of-dreams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sync": "unity-link ../platypus ./Assets/platypus"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekytime/art-of-dreams.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geekytime/art-of-dreams/issues"
+  },
+  "homepage": "https://github.com/geekytime/art-of-dreams#readme",
+  "dependencies": {
+    "unity-link": "~1.1.0"
+  }
+}
