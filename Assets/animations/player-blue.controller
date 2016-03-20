@@ -336,7 +336,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: player-blue-idle
+  m_Name: idle
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -361,7 +361,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: player-blue-jump
+  m_Name: jump
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -387,7 +387,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: player-blue-fall
+  m_Name: fall
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -413,7 +413,7 @@ AnimatorState:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: player-blue-walk
+  m_Name: walk
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:

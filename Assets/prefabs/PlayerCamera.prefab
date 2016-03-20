@@ -11,14 +11,13 @@ GameObject:
   - 20: {fileID: 2000886}
   - 92: {fileID: 9252078}
   - 124: {fileID: 12404880}
-  - 81: {fileID: 8105106}
   - 114: {fileID: 11485968}
   - 114: {fileID: 11445824}
   - 114: {fileID: 11488482}
   - 114: {fileID: 11487162}
   m_Layer: 0
   m_Name: PlayerCamera
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69,13 +68,6 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
---- !u!81 &8105106
-AudioListener:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 142458}
-  m_Enabled: 1
 --- !u!92 &9252078
 Behaviour:
   m_ObjectHideFlags: 1
@@ -167,6 +159,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_ClearFlags
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

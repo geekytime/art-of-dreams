@@ -130,9 +130,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SplashScreen: {fileID: 1647234767}
   SplashScreenCamera: {fileID: 2092649478}
-  DefaultStartScene: home
-  DefaultStartArea: home
-  DefaultStartPortal: home-start
+  DefaultStartScene: blue
+  DefaultStartArea: blue
+  DefaultStartPortal: door-bottom
 --- !u!114 &569216741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,6 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerPrefabs:
   - {fileID: 11403682, guid: 0d702584c5c3a4ad6ba83a8acd637f4d, type: 2}
+  - {fileID: 11442706, guid: 887d0a8d4d75d4dc79c702e816288e64, type: 2}
 --- !u!114 &569216743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,8 +171,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerCameraPrefab: {fileID: 11445824, guid: c7503e58243da4e1caced700c2738fc9, type: 2}
-  HorizontalSeparator: {fileID: 0}
-  VerticalSeparator: {fileID: 0}
+  HorizontalSeparator: {fileID: 113742, guid: c9e1625241af44f999689dfaf4c6a2a2, type: 2}
+  VerticalSeparator: {fileID: 144084, guid: 5edb306c5dbbc4fad83b85c040f7ed5c, type: 2}
 --- !u!114 &569216744
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -286,8 +287,7 @@ GameObject:
 --- !u!81 &2092649475
 AudioListener:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 8105106, guid: c7503e58243da4e1caced700c2738fc9,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2092649472}
   m_Enabled: 1
