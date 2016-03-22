@@ -114,7 +114,7 @@ MonoBehaviour:
   ViewBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
-  MaxOrthographicSize: 10
+  MaxOrthographicSize: 5
   MinOrthographicSize: 2
 --- !u!114 &11488482
 MonoBehaviour:
@@ -163,6 +163,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_TagString
       value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: MaxOrthographicSize
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
