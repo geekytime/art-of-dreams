@@ -130,9 +130,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SplashScreen: {fileID: 1647234767}
   SplashScreenCamera: {fileID: 2092649478}
-  DefaultStartScene: blue
-  DefaultStartArea: blue
-  DefaultStartPortal: door-bottom
+  DefaultStartScene: cave
+  DefaultStartArea: cave
+  DefaultStartPortal: door-right
 --- !u!114 &569216741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,7 +298,7 @@ Behaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2092649472}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!92 &2092649477
 Behaviour:
   m_ObjectHideFlags: 0
@@ -306,7 +306,7 @@ Behaviour:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2092649472}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &2092649478
 Camera:
   m_ObjectHideFlags: 0
