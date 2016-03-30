@@ -130,9 +130,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SplashScreen: {fileID: 1647234767}
   SplashScreenCamera: {fileID: 2092649478}
-  DefaultStartScene: night
-  DefaultStartArea: night
-  DefaultStartPortal: door-left
+  DefaultStartScene: home
+  DefaultStartArea: home
+  DefaultStartPortal: home-start
 --- !u!114 &569216741
 MonoBehaviour:
   m_ObjectHideFlags: 0
