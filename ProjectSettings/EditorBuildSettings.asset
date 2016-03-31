@@ -15,3 +15,7 @@ EditorBuildSettings:
     path: Assets/scenes/blue.unity
   - enabled: 1
     path: Assets/scenes/cave.unity
+  - enabled: 1
+    path: Assets/scenes/prairie.unity
+  - enabled: 1
+    path: Assets/scenes/night.unity
