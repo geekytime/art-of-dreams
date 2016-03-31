@@ -259,8 +259,8 @@ MonoBehaviour:
   collisionMask:
     serializedVersion: 2
     m_Bits: 1024
-  horizontalRayCount: 8
-  verticalRayCount: 8
+  horizontalRayCount: 16
+  verticalRayCount: 16
   areaBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
@@ -297,9 +297,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0fba83002a1747f5a2bc586ff4c83e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxJumpHeight: 4
+  maxJumpHeight: 5
   minJumpHeight: 2
-  timeToJumpApex: 0.4
+  timeToJumpApex: 0.45
   walkSpeed: 6
   runSpeed: 9
   maxJumpCount: 2
@@ -476,6 +476,22 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: StunDuration
       value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: horizontalRayCount
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: verticalRayCount
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: maxJumpHeight
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: timeToJumpApex
+      value: 0.45
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
