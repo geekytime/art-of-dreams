@@ -21,6 +21,8 @@ GameObject:
   - 114: {fileID: 11498028}
   - 114: {fileID: 11464886}
   - 114: {fileID: 11472058}
+  - 114: {fileID: 11422724}
+  - 114: {fileID: 11465288}
   m_Layer: 11
   m_Name: PlayerGreen
   m_TagString: Untagged
@@ -203,6 +205,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11422724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b7f33b232ca410ca125688a8aa92c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11442706
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -244,8 +257,8 @@ MonoBehaviour:
   collisionMask:
     serializedVersion: 2
     m_Bits: 1024
-  horizontalRayCount: 8
-  verticalRayCount: 8
+  horizontalRayCount: 16
+  verticalRayCount: 16
   areaBounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
@@ -263,6 +276,17 @@ MonoBehaviour:
   Items: []
   SelectedIndex: -1
   AutoSelectLatest: 1
+--- !u!114 &11465288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92c060b08acf34b01aebb15c0effae91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11472058
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -286,9 +310,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0fba83002a1747f5a2bc586ff4c83e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxJumpHeight: 4
+  maxJumpHeight: 5
   minJumpHeight: 2
-  timeToJumpApex: 0.4
+  timeToJumpApex: 0.45
   walkSpeed: 6
   runSpeed: 9
   maxJumpCount: 2
